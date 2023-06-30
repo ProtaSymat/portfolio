@@ -1,0 +1,13 @@
+RewriteEngine On
+
+# Réécriture de / vers index.php
+RewriteRule ^$ index.php [L]
+
+# Réécriture de /nomtemplate/ vers nomtemplate.php
+RewriteCond %{REQUEST_URI} !^/asset/ [NC]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([^/]+)/?$ $1.php [L]
+
+# Réécriture de /detail-projet/1 vers project-detail.php?id=1
+RewriteRule ^detail-projet/(\d+)/?$ project-detail.php?id=$1 [L]

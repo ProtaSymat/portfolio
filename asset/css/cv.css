@@ -1,0 +1,341 @@
+/* ============================== */
+
+/* ================================================== */
+/* COTE ROSE */
+/* ================================================== */
+
+body.body-cv{
+    background-color: #191717;
+}
+
+main.CV{
+    display: flex;
+    justify-content: center;
+}
+
+
+#Image {
+    height: 250px;
+    margin: 15px 15px;
+}
+
+
+main .Rose {
+    width: 280px;
+    background:#1f8224
+}
+
+main .Texte {
+    padding: 0 25px;
+}
+
+main .Texte h3{
+    font-family: 'League Spartan', sans-serif;
+}
+
+main .Texte p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main .Texte .TextePresentation {
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main .Texte .TextePresentation h1 {
+    font-weight: bold;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 47px;
+    margin: 0 5px;
+    line-height: 40px;
+}
+
+main .Texte .TextePresentation p {
+    padding: 5px 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main .Texte .TextePresentation a {
+    color: black;
+}
+
+main .Texte .TexteCompetence h2 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 22px;
+
+}
+
+main .Texte .TexteCompetence h3{
+    font-family: 'League Spartan', sans-serif;
+}
+
+main .Texte .TexteCompetence p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+main .Texte .TexteInteret h2 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+}
+
+/* ================================================== */
+/* COTE BLANC */
+/* ================================================== */
+
+main .Blanc {
+    width: 520px;
+    background: #fff;
+    padding: 25px;
+}
+
+
+/* ============================ */
+/* BARRE TRANSITION */
+/* ============================ */
+
+main .Barre {
+    width: 70%;
+    border-bottom: 4px solid black;
+    margin: 0 60px;
+}
+
+/* ============================ */
+/* COTE BLANC + TITRE */
+/* ============================ */
+
+main .Blanc .TitreCV {
+    margin: -20px 40px;
+    width: 100%;
+}
+
+main .Blanc .TitreCV h1 {
+    font-size: 55px;
+    font-family: 'League Spartan', sans-serif;
+    line-height: 45px;
+}
+
+main .Blanc .TitreCV h2 {
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    line-height: 35px;
+    margin-top: -25px;
+}
+
+.Exppro h3 {
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+
+}
+
+.Formations h3 {
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+}
+
+/* ============================ */
+/* E COTE BLANC + BLOC */
+/* ============================ */
+
+.E-Bloc1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.E-Bloc2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.E-Bloc3 {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ============================ */
+/* E COTE BLANC + BLOC GAUCHE TITRE*/
+/* ============================ */
+
+.E-Bloc1 .E-Exp1-Gauche h3 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+}
+
+.E-Bloc2 .E-Exp2-Gauche h3 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+}
+
+.E-Bloc3 .E-Exp3-Gauche h3 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+}
+/* ============================ */
+/* E COTE BLANC + BLOC GAUCHE PARAGRAPHE*/
+/* ============================ */
+.E-Bloc1 .E-Exp1-Gauche p {
+    padding: 0 0;
+    width: 150%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.E-Bloc2 .E-Exp2-Gauche p {
+    padding: 0 0;
+    width: 150%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.E-Bloc3 .E-Exp3-Gauche p {
+    padding: 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    width: 150%;
+}
+/* ============================ */
+/* E COTE BLANC + BLOC DROITE TEXTE*/
+/* ============================ */
+.E-Bloc1 .E-Exp1-Droite ul li {
+    margin: 0 40px;
+    width: 90%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.E-Bloc2 .E-Exp2-Droite ul li {
+    margin: 0 40px;
+    width: 90%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.E-Bloc3 .E-Exp3-Droite ul li {
+    margin: 10px 100px;
+    width: 75%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ============================ */
+/* F COTE BLANC + BLOC */
+/* ============================ */
+
+.F-Bloc1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.F-Bloc2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.F-Bloc3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.F-Bloc4 {
+    display: flex;
+    flex-direction: row;
+}
+
+/* ============================ */
+/* F COTE BLANC + BLOC GAUCHE TITRE*/
+/* ============================ */
+
+.F-Bloc1 .F-Exp1-Gauche h3 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+}
+
+.F-Bloc2 .F-Exp2-Gauche h3 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+}
+
+.F-Bloc3 .F-Exp3-Gauche h3 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+}
+
+.F-Bloc4 .F-Exp4-Gauche h3 {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+}
+
+/* ============================ */
+/* F COTE BLANC + BLOC GAUCHE PARAGRAPHE*/
+/* ============================ */
+.F-Bloc1 .F-Exp1-Gauche p {
+    padding: 0 0;
+    width: 150%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.F-Bloc2 .F-Exp2-Gauche p {
+    padding: 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    width: 150%;
+}
+
+.F-Bloc3 .F-Exp3-Gauche p {
+    padding: 0 0;
+    width: 150%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.F-Bloc4 .F-Exp4-Gauche p {
+    padding: 0 0;
+    font-family: 'Courier New', Courier, monospace;
+    width: 150%;
+}
+
+/* ============================ */
+/* F COTE BLANC + BLOC DROITE TEXTE*/
+/* ============================ */
+.F-Bloc1 .F-Exp1-Droite ul li {
+    margin: 0 40px;
+    width: 70%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.F-Bloc2 .F-Exp2-Droite ul li {
+    margin: 0 40px;
+    width: 90%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.F-Bloc3 .F-Exp3-Droite ul li {
+    margin: 10px 100px;
+    width: 75%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.F-Bloc4 .F-Exp4-Droite ul li {
+    margin: 10px 100px;
+    width: 75%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cv-download{
+    flex-direction: column;
+    align-items: center;
+}
+
+.cv-download h6{
+    color: #1f8224;
+    font-size: 1.2vw;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+.cv-download a button{
+    color: #1f8224;
+    background-color: transparent;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid 1px #1f8224;
+    padding:1vw;
+    cursor: pointer;
+}
+
+.cv-download a button:hover{
+    border: solid 1px #e07ddb;
+}

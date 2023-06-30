@@ -1,0 +1,381 @@
+
+@media (max-width: 1238px) {
+    .card-box{
+        width:70vw;
+    }
+
+    .nom{
+        font-size:16vw;
+    }
+
+    .box1 img {
+        height: 33vw;
+        width: 33vw;
+    }
+
+    .box1, .box2 {
+        height: 33vw;
+        width: 33vw;
+    }
+
+    .mobile-link{
+        display: block;
+    }
+    
+    
+}
+
+@media (max-width: 900px) {
+    .container {
+        margin: 0 550px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .navigation a.cube-link {
+        pointer-events: none;
+    }
+
+    .container {
+        margin: 0 500px 0;
+    }
+
+    .card-box{
+        width:80vw;
+    }
+    
+
+    .card-body .card-img{
+        width:30vw;
+        height:30vw;
+    }
+
+    h3.card-title{
+        font-size: 5vw;
+    }
+
+    .card-text{
+        width:30vw;
+    }
+
+    p.whoami-desc{
+        font-size: 3vw;
+    }
+
+    .navigation ul{
+        padding:0;
+        margin:0;
+    }
+
+    .box2, .box1:hover{
+        display: none;
+    }
+
+    #messenger{
+        top:12%;
+    }
+
+    .intro-text-projet{
+     margin-top: 26vw;   
+    }
+
+    .media-social-box{
+        display: block;
+        grid-template-columns: none;
+    }
+
+    .intro-resume{
+        font-size:2vw;
+        line-height:2.5vw;
+    }
+
+    .body-presentation{
+        margin-top:14vw;
+    }
+
+    .pres-name {
+        color: #1f8224;
+        font-size: 1.5vw;
+    }
+
+    
+    .additional-images{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detail-project{
+        text-align: center;
+        margin-top: 20vw;
+    }
+    .main-detail{
+        flex-direction: column;
+    }
+
+    .project-title{
+        flex-direction: column;
+    }
+
+    .project-title h1{
+        font-size: 9vw;
+        margin: 0;
+    }
+
+    .additional-detail h6{
+        font-size: 5vw;
+    }
+
+    .big-img{
+        width:80vw;
+    }
+
+    .additional-images img {
+        width: 85vw;
+    }
+
+    .additional-detail{
+        width: 643.8px;
+        margin-top:10vw;
+    }
+
+}
+
+@media (max-width: 731px) {
+    .mobile-desc{
+        display:block;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 20vw;
+        margin-bottom: 10vw;
+    }
+
+    .card-box{
+        width:86vw;
+    }
+
+    .card-body .card-img{
+        width:30vw;
+        height:30vw;
+    }
+
+    h3.card-title{
+        font-size: 5vw;
+    }
+
+    .card-text{
+        width:30vw;
+    }
+
+    .navigation ul{
+        padding:0;
+        margin:0;
+    }
+
+    .main-home{
+        display:flex;
+        flex-direction: column;
+        margin-top:10vw;
+    }
+
+    .nom{
+        font-size:22vw;
+    }
+
+    .box1 img{
+        width:45vw;
+        height:45vw;
+        padding-top: 15vw;
+    }
+
+    #messenger{
+        top:9%;
+    }
+
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 3000;
+      }
+    
+    .cube{
+        z-index: 2999;
+        pointer-events: none;
+    }
+
+    .cube,
+    .cube .face {
+      pointer-events: none;
+    }
+    
+      .navigation .btn-navigation {
+        order: -1;
+        margin-bottom: 5vw;
+      }
+    
+    .navigation .container {
+        margin: 0 auto;
+    }
+
+    .navigation a.cube-link{
+        pointer-events: none;
+    }
+
+    .mobile-link{
+        display: block;
+    }
+
+    .media-social-text{
+        display: none;
+    }
+
+    .social-icons-column{
+        grid-column: none;
+    }
+
+    .media-social-box{
+        display: block;
+        grid-template-columns: none;
+    }
+
+    .additional-images{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .detail-project{
+        text-align: center;
+        margin-top: 20vw;
+    }
+    .main-detail{
+        flex-direction: column;
+    }
+
+    .project-title{
+        flex-direction: column;
+    }
+
+    .project-title h1{
+        font-size: 9vw;
+        margin: 0;
+    }
+
+    .additional-detail h6{
+        font-size: 5vw;
+    }
+
+    .big-img{
+        width:80vw;
+    }
+
+    .additional-images img {
+        width: 85vw;
+    }
+
+    .additional-detail{
+        width: 388.425px;
+        margin-top:10vw;
+    }
+
+    .body-presentation {
+        margin-top: 5vw;
+      }
+      
+      .partie-logo {
+        padding: 2vw;
+      }
+      
+      .intro-titre {
+        font-size: 10vw;
+        padding-top: 5vw;
+      }
+      
+      .intro-resume {
+        font-size: 3vw;
+        line-height: 4vw;
+      }
+      
+      .me-box {
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+      }
+      
+      .me-box a img {
+        width: 8vw;
+      }
+      
+      .pres-image-wrapper img{
+        width: 8vw;
+      }
+
+      .tech-box {
+        padding: 2vw;
+        border: none;
+        border-top: 0.8vw solid #1f8224;
+      }
+      
+      .desc-tech {
+        width: 30vw;
+        margin-bottom: 1.5vw;
+        padding: 1vw;
+        border: 0.2vw solid #1f8224;
+        padding-right:8vw;
+      }
+      
+      .desc-tech p {
+        padding:0;
+        margin:0;
+      }
+      
+      .desc-tech img {
+        width: 10vw;
+        height:9vw;
+      }
+      
+      .intro-div {
+        flex-direction: column;
+        text-align: center;
+      }
+      
+      .partie-texte {
+        margin-top: 2vw;
+        flex-direction: column;
+      }
+
+      .pres-info{
+        display: none;
+      }
+
+      .pres-icon{
+        border: none;
+      }
+
+      .presentation-img{
+        width:30vw;
+        height:30vw;
+      }
+      
+      .input-name{
+        width:60vw;
+      }
+
+      .input-other{
+        width:70vw;
+      }
+
+      .h6.contact-form{
+        font-size: 8vw;
+      }
+
+      .img-mail{
+        padding-right:16px;
+        width:20vw;
+      }
+
+      .intro-text{
+        padding-top:5vw;
+      }
+}
+
+
